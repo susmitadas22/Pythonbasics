@@ -1,0 +1,13 @@
+n=int(input("Enter the no. to check if it is Armstrong:"))
+len=len(str(n))
+m=n
+total=0
+while n>0:
+    rem=n%10
+    total=total+(rem**len)
+    n=n//10
+if m==total:
+    print(m,"is armstrong")
+else:
+    print(m,"is not armstrong")
+
