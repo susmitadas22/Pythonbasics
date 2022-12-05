@@ -1,0 +1,9 @@
+def digit(n):
+    a=1
+    while n>0:
+        r=n%10
+        if a<r:
+            a=r
+        n=n//10
+    print("largest digit=",a)
+digit(78569234)
