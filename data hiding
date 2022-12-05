@@ -1,0 +1,7 @@
+class Demo:
+    _a=10
+    def display(self):
+        print("Value of a=",self._a)
+obj=Demo()
+obj.display()
+print("New value=",obj._a)
