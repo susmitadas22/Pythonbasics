@@ -1,0 +1,7 @@
+a=int(input("Enter the no: "))
+len=len(str(a))
+last=a%10
+first=a//(10**(len-1))
+total=first+last
+print("sum of first and last number is",total)
+
