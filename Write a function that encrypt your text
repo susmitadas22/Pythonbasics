@@ -1,0 +1,13 @@
+def encrypt(S):
+    M=S.upper()
+    e=""
+    for a in M:
+        if ord(a)==89:
+            e=e+chr(65)
+        elif ord(a)==90:
+            e=e+chr(66)
+        else:
+            e=e+chr(ord(a)+2)
+    print("Encrypted string is=",e)
+p=input("Enter string=")
+encrypt(p)
